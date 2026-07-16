@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- معلومات الصفحة -->
+    <title>Qpack | تواصل معنا</title>
+    <meta name="description" content="تواصل مع فريق عمل Qpack للاستفسارات وطلبات الأسعار. نحن هنا لخدمتكم.">
+    <meta name="keywords" content="اتصل بنا, تواصل مع المصنع, استفسارات, دعم فني">
+    <meta name="author" content="Norah AlDoghmani">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body> 
+
+    <header>
+        <img src="assets/img/logo.png" alt="Qpack Logo" width="100">
+        
+        <!-- زر القائمة للجوال -->
+        <div class="menu-toggle" id="mobile-menu">≡</div>
+        
+        <nav>
+            <ul id="nav-list">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="products.html">منتجاتنا</a></li>
+                <li><a href="careers.html">توظيف</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contact-main">
+    <section id="contact-hero">
+        <h2>تواصل مع فريق Qpack</h2>
+        <p>نحن هنا لدعم نجاح منتجك. بابنا مفتوح لشركائنا، ونحن لا ننظر إلى تواصلكم كمجرد رسائل، بل كفرص لتطوير خدماتنا وفهم احتياجاتكم بشكل أعمق. يسعدنا استقبال استفساراتكم واقتراحاتكم.</p>
+    </section>
+
+    <div class="contact-container">
+        <!-- جهة نموذج التواصل -->
+        <section id="contact-form-section">
+            <h2>أرسل لنا رسالة</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="الاسم الكامل" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <input type="tel" placeholder="رقم الهاتف" required>
+                <select name="subject" required>
+                    <option value="" disabled selected>اختر نوع الرسالة</option>
+                    <option value="quote">طلب عرض سعر</option>
+                    <option value="technical">استفسار</option>
+                    <option value="complaint">شكوى</option>
+                    <option value="suggestion">اقتراح تطوير</option>
+                    <option value="partnership">شراكة تجارية</option>
+                </select>
+                <textarea placeholder="اكتب رسالتك هنا..." rows="5" required></textarea>
+                <button type="submit" class="submit-btn">إرسال الرسالة</button>
+            </form>
+            <div id="contact-success" style="display:none; text-align:center; padding:2rem; color: #BB8546; font-weight:bold;">شكراً لك! تم استلام رسالتك وسنتواصل معك قريباً</div>
+        </section>
+
+        <!-- جهة الخريطة والمعلومات -->
+        <section id="contact-details">
+            <h2>بيانات التواصل</h2>
+            <div class="info-item">📍 العنوان: المنطقة الصناعية، بريدة، القصيم</div>
+            <div class="info-item">📞 الهاتف: 016 1115555</div>
+            <div class="info-item">📧 البريد: info@qpack.sa</div>
+            
+            <!-- الخريطة (استخدمت رابط ثابت كمثال) -->
+            <div class="map-box" style="margin-top: 20px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57545.93297779346!2d43.95159495!3d26.32606555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x157d6d532a265637%3A0x6b7713d7e5e34898!2sBuraydah!5e0!3m2!1sen!2ssa!4v1689456789012!5m2!1sen!2ssa" width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </div>
+    </main>
+
+    <footer>
+        <p>All rights reserved for Qassim Corrugated Box Factory ®, 2026.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
